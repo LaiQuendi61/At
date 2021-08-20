@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alt Bölgeler</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="home" class="flex-center flex-column">
+        <h1>Alt Bölgeler</h1>
+        
+        <div id="content" class="flex-center flex-column">
+
+        </div>
+        <div
+          style="
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+          "
+        >
+          <a class="btn" href="javascript:history.back()">geri</a>
+          <a class="btn" href="/başlangıç.html">geri</a>
+        </div>
+      </div>
+    </div>
+    <script>
+        const urlSearchParams = new URLSearchParams(window.location.search);
+const urlParams = Object.fromEntries(urlSearchParams.entries());
+      fetch(
+        `http://localhost:3000/altbolge?at=${urlParams.at}`
+       )
+        .then((res) => {
+          return res.json();
+        })
+        .then((altBolgeListesi) => {
+          var content = ''; 
+          altBolgeListesi.forEach(tekilAltBolge => {
+            content += `<a class="btn" href="/game.html?bolge=${urlParams.bolge}&at=${urlParams.at}&altbolge=${tekilAltBolge.id}">${tekilAltBolge.friendlyName}</a>`
+          });
+
+          if(altBolgeListesi.length == 0){
+            content = "<h3>Veri bulunamadı</h3>";
+          }
+
+          document.getElementById('content').innerHTML = content;
+        })
+        .catch((err) => {
+          alert('Alt bölgeler alınırken bir hata oluştu')
+        });
+    </script>
+  </body>
+</html>

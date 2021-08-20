@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bolgeler</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="home" class="flex-center flex-column">
+        <h1>bölge Seç</h1>
+        
+        <div id="content" class="flex-center flex-column">
+
+        </div>
+        <div
+          style="
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+          "
+        >
+          <a class="btn" href="/başlangıç.html">geri</a>
+          <a class="btn" href="/başlangıç.html">geri</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      fetch(
+        `http://localhost:3000/bolgeler`
+      )
+        .then((res) => {
+          return res.json();
+        })
+        .then((bolgeListesi) => {
+          var content = ''; 
+          bolgeListesi.forEach(tekilBolge => {
+            content += `<a class="btn" href="/at.html?id=${tekilBolge.id}">${tekilBolge.friendlyName}</a>`
+          });
+          document.getElementById('content').innerHTML = content;
+        })
+        .catch((err) => {
+          alert('Bölgeler alınırken bir hata oluştu')
+        });
+    </script>
+  </body>
+</html>
