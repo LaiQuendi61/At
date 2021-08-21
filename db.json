@@ -1,0 +1,132 @@
+{
+  "bolgeler":[
+    {
+      "id":1,
+      "friendlyName":"Baş"
+    },
+    {
+      "id":2,
+      "friendlyName":"Kol"
+    }
+  ],
+  "altbolge": [
+    {
+      "id" : 1,
+      "friendlyName": "Bacak",
+      "bolge": 1
+    },
+    {
+      "id" : 1,
+      "friendlyName": "Bacak 2",
+      "bolge": 2
+    },
+    {
+      "id" : 3,
+      "friendlyName": "Bacak 3",
+      "bolge": 3
+    }
+  ],
+  
+  
+    "questions": [
+        {
+            "resim":"/resim/Kafa on/ala major os sphenoidale.png",
+            "question":"a",
+            "correct_answer": "2007",
+            "incorrect_answers": [
+              "2008",
+              "2006",
+              "we",
+              "2009"
+            ],
+            "bolge": 1,
+            "altbolge": 1
+          },
+          
+            {
+              "resim": "/resim/Kafa on/sutura internasalis.png",
+              "correct_answer": "sutura internasalis",
+              "incorrect_answers": [
+                 "sutura frontolacrimalis",
+                 "sutura nasomaxillaris",
+                 "sutura frontonasalis",
+                 "sutura frontomaxillaris"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/os lacrimale.png",
+              "correct_answer": "os lacrimale",
+              "incorrect_answers": [
+                 "os sphenoidale",
+                 "vomer",
+                 "ethmoidale",
+                 "maxilla"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/sutura frontomaxillaris.png",
+              "correct_answer": "sutura frontomaxillaris",
+              "incorrect_answers": [
+                 "sutura frontolacrimalis",
+                 "sutura nasomaxillaris",
+                 "sutura frontonasalis",
+                 "sutura sphenozygomatica"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/sutura frontonasalis.png",
+              "correct_answer": "sutura frontonasalis",
+              "incorrect_answers": [
+                 "sutura frontolacrimalis",
+                 "sutura nasomaxillaris",
+                 "sutura frontozygomatica",
+                 "sutura frontomaxillaris"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/sutura frontozygomatica.png",
+              "correct_answer": "sutura frontozygomatica",
+              "incorrect_answers": [
+                 "sutura frontolacrimalis",
+                 "sutura nasomaxillaris",
+                 "sutura frontonasalis",
+                 "sutura frontomaxillaris"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/sutura sphenozygomatica.png",
+              "correct_answer": "sutura sphenozygomatica",
+              "incorrect_answers": [
+                 "sutura frontolacrimalis",
+                 "sutura nasomaxillaris",
+                 "sutura frontonasalis",
+                 "sutura frontomaxillaris"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/sutura nasomaxillaris.png",
+              "correct_answer": "sutura nasomaxillaris",
+              "incorrect_answers": [
+                 "sutura frontolacrimalis",
+                 "sutura sphenozygomatica",
+                 "sutura frontonasalis",
+                 "sutura frontomaxillaris"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           }
+           
+    ]
+  }
