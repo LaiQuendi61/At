@@ -24,16 +24,17 @@
             justify-content: space-between;
           "
         >
-          <a class="btn" href="javascript:history.back()">geri</a>
-          <a class="btn" href="/başlangıç.html">geri</a>
+          <a class="btn" href="javascript:history.back()">Geri</a>
+          <a class="btn" href="/başlangıç.html">Başlangıç</a>
         </div>
       </div>
     </div>
     <script>
         const urlSearchParams = new URLSearchParams(window.location.search);
-const urlParams = Object.fromEntries(urlSearchParams.entries());
+        const urlParams = Object.fromEntries(urlSearchParams.entries());
+        console.log(urlParams)
       fetch(
-        `http://localhost:3000/altbolge?at=${urlParams.at}`
+        `http://localhost:3000/altbolge?id=${urlParams.id}`
        )
         .then((res) => {
           return res.json();
@@ -41,7 +42,7 @@ const urlParams = Object.fromEntries(urlSearchParams.entries());
         .then((altBolgeListesi) => {
           var content = ''; 
           altBolgeListesi.forEach(tekilAltBolge => {
-            content += `<a class="btn" href="/game.html?bolge=${urlParams.bolge}&at=${urlParams.at}&altbolge=${tekilAltBolge.id}">${tekilAltBolge.friendlyName}</a>`
+            content += `<a class="btn" href="/game.html?altbolge=${urlParams.id}&bolge=${tekilAltBolge.bolge}">${tekilAltBolge.friendlyName}</a>`
           });
 
           if(altBolgeListesi.length == 0){

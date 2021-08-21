@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bolgeler</title>
+    <title>Atlar</title>
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
     <div class="container">
       <div id="home" class="flex-center flex-column">
-        <h1>bölge Seç</h1>
+        <h1>at Seç</h1>
         
         <div id="content" class="flex-center flex-column">
 
@@ -24,26 +24,36 @@
             justify-content: space-between;
           "
         >
-          <a class="btn" href="/başlangıç.html">Geri</a>
+          <a class="btn" href="javascript:history.back()">geri</a>
+          <a class="btn" href="/başlangıç.html">geri</a>
         </div>
       </div>
     </div>
     <script>
+        const urlSearchParams = new URLSearchParams(window.location.search);
+        const urlParams = Object.fromEntries(urlSearchParams.entries());
+        console.log(urlParams)
       fetch(
-        `http://localhost:3000/bolgeler`
-      )
+        `http://localhost:3000/at?bolge=${urlParams.id}`
+       )
         .then((res) => {
           return res.json();
         })
-        .then((bolgeListesi) => {
+        .then((tekilAtlar) => {
           var content = ''; 
-          bolgeListesi.forEach(tekilBolge => {
-            content += `<a class="btn" href="/altbolge.html?id=${tekilBolge.id}">${tekilBolge.friendlyName}</a>`
+          tekilAtlar.forEach(tekilAt => {
+            content += `<a class="btn" href="/altbolge.html?at=${tekilAt.id}&bolge=${tekilAt.bolge}">${tekilAt.friendlyName}</a>`
           });
+
+          if(tekilAtlar.length == 0){
+            content = "<h3>Veri bulunamadı</h3>";
+          }
+
+
           document.getElementById('content').innerHTML = content;
         })
         .catch((err) => {
-          alert('Bölgeler alınırken bir hata oluştu')
+          alert('Atlar alınırken bir hata oluştu')
         });
     </script>
   </body>

@@ -18,8 +18,8 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 let questions = [];
-
-fetch(`http://localhost:3000/questions?bolge=${urlParams.bolge}&altbolge=${urlParams.altbolge}`)
+console.log(urlParams)
+fetch(`http://localhost:3000/questions?bolge=${urlParams.altbolge}&altbolge=${urlParams.bolge}`)
    .then(res =>{
      return res.json();
 })
@@ -53,7 +53,7 @@ fetch(`http://localhost:3000/questions?bolge=${urlParams.bolge}&altbolge=${urlPa
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 50;
 
 startGame = () => {
   questionCounter = 0;
