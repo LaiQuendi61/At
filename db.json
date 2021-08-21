@@ -42,15 +42,14 @@
             "bolge": 1,
             "altbolge": 1
           },
-          
             {
               "resim": "/resim/Kafa on/sutura internasalis.png",
-              "correct_answer": "sutura internasalis",
+              "correct_answer": "Sutura internasalis",
               "incorrect_answers": [
-                 "sutura frontolacrimalis",
-                 "sutura nasomaxillaris",
-                 "sutura frontonasalis",
-                 "sutura frontomaxillaris"
+                 "Sutura frontolacrimalis",
+                 "Sutura nasomaxillaris",
+                 "Sutura frontonasalis",
+                 "Sutura frontomaxillaris"
               ],
               "bolge": 1,
               "altbolge": 1
@@ -69,64 +68,231 @@
            },
             {
               "resim": "/resim/Kafa on/sutura frontomaxillaris.png",
-              "correct_answer": "sutura frontomaxillaris",
+              "correct_answer": "Sutura frontomaxillaris",
               "incorrect_answers": [
-                 "sutura frontolacrimalis",
-                 "sutura nasomaxillaris",
-                 "sutura frontonasalis",
-                 "sutura sphenozygomatica"
+                 "Sutura frontolacrimalis",
+                 "Sutura nasomaxillaris",
+                 "Sutura frontonasalis",
+                 "Sutura sphenozygomatica"
               ],
               "bolge": 1,
               "altbolge": 1
            },
             {
               "resim": "/resim/Kafa on/sutura frontonasalis.png",
-              "correct_answer": "sutura frontonasalis",
+              "correct_answer": "Sutura frontonasalis",
               "incorrect_answers": [
-                 "sutura frontolacrimalis",
-                 "sutura nasomaxillaris",
-                 "sutura frontozygomatica",
-                 "sutura frontomaxillaris"
+                 "Sutura frontolacrimalis",
+                 "Sutura nasomaxillaris",
+                 "Sutura frontozygomatica",
+                 "Sutura frontomaxillaris"
               ],
               "bolge": 1,
               "altbolge": 1
            },
             {
               "resim": "/resim/Kafa on/sutura frontozygomatica.png",
-              "correct_answer": "sutura frontozygomatica",
+              "correct_answer": "Sutura frontozygomatica",
               "incorrect_answers": [
-                 "sutura frontolacrimalis",
-                 "sutura nasomaxillaris",
-                 "sutura frontonasalis",
-                 "sutura frontomaxillaris"
+                 "Sutura frontolacrimalis",
+                 "Sutura frontolacrimalis",
+                 "Sutura frontonasalis",
+                 "Sutura frontomaxillaris"
               ],
               "bolge": 1,
               "altbolge": 1
            },
             {
               "resim": "/resim/Kafa on/sutura sphenozygomatica.png",
-              "correct_answer": "sutura sphenozygomatica",
+              "correct_answer": "Sutura sphenozygomatica",
               "incorrect_answers": [
-                 "sutura frontolacrimalis",
-                 "sutura nasomaxillaris",
-                 "sutura frontonasalis",
-                 "sutura frontomaxillaris"
+                 "Sutura zygomaticomaxillaris",
+                 "Sutura nasomaxillaris",
+                 "Sutura sphenoparietalis",
+                 "Sutura frontomaxillaris"
               ],
               "bolge": 1,
               "altbolge": 1
            },
             {
               "resim": "/resim/Kafa on/sutura nasomaxillaris.png",
-              "correct_answer": "sutura nasomaxillaris",
+              "correct_answer": "Sutura nasomaxillaris",
               "incorrect_answers": [
-                 "sutura frontolacrimalis",
-                 "sutura sphenozygomatica",
-                 "sutura frontonasalis",
-                 "sutura frontomaxillaris"
+                 "Sutura frontolacrimalis",
+                 "Sutura sphenozygomatica",
+                 "Sutura frontonasalis",
+                 "Sutura frontomaxillaris"
               ],
               "bolge": 1,
               "altbolge": 1
-           }
-           
+           },
+            {
+              "resim": "/resim/Kafa on/Sutura coronalis.png",
+              "correct_answer": "Sutura coronalis",
+              "incorrect_answers": [
+                 "Sutura sphenofrontalis",
+                 "Sutura frontozygomatica",
+                 "Sutura internasalis",
+                 "Sutura frontozygomatica"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/Sutura sphenofrontalis.png",
+              "correct_answer": "Sutura sphenofrontalis",
+              "incorrect_answers": [
+                 "Sutura frontolacrimalis",
+                 "Sutura sphenoparietalis",
+                 "Sutura sphenozygomatica",
+                 "Sutura frontozygomatica"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/Sutura zygomaticomaxillaris.png",
+              "correct_answer": "Sutura zygomaticomaxillaris",
+              "incorrect_answers": [
+                 "Sutura sphenofrontalis",
+                 "Sutura intermaxillaris",
+                 "Sutura sphenozygomatica",
+                 "Sutura frontozygomatica"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/Sutura sphenoparietalis.png",
+              "correct_answer": "Sutura sphenoparietalis",
+              "incorrect_answers": [
+                 "Sutura zygomaticomaxillaris",
+                 "Sutura sphenofrontalis",
+                 "Sutura sphenozygomatica",
+                 "Sutura sphenozygomatica"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/Sutura intermaxillaris.png",
+              "correct_answer": "Sutura intermaxillaris",
+              "incorrect_answers": [
+                 "Sutura zygomaticomaxillaris",
+                 "Sutura sphenofrontalis",
+                 "Sutura internasalis",
+                 "Sutura nasomaxillaris"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/Sutura frontolacrimalis.png",
+              "correct_answer": "Sutura frontolacrimalis",
+              "incorrect_answers": [
+                 "Sutura sphenofrontalis",
+                 "Sutura sphenofrontalis",
+                 "Sutura frontomaxillaris",
+                 "Sutura coronalis"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/",
+              "correct_answer": "",
+              "incorrect_answers": [
+                 "",
+                 "",
+                 "",
+                 ""
+              ],
+              "bolge": null,
+              "altbolge": null
+           },
+            {
+              "resim": "/resim/Kafa�on/",
+              "correct_answer": "",
+              "incorrect_answers": [
+                 "",
+                 "",
+                 "",
+                 ""
+              ],
+              "bolge": null,
+              "altbolge": null
+           },
+            {
+              "resim": "/resim/Kafa�on/",
+              "correct_answer": "",
+              "incorrect_answers": [
+                 "",
+                 "",
+                 "",
+                 ""
+              ],
+              "bolge": null,
+              "altbolge": null
+           },
+            {
+              "resim": "/resim/Kafa�on/",
+              "correct_answer": "",
+              "incorrect_answers": [
+                 "",
+                 "",
+                 "",
+                 ""
+              ],
+              "bolge": null,
+              "altbolge": null
+           },
+            {
+              "resim": "/resim/Kafa�on/",
+              "correct_answer": "",
+              "incorrect_answers": [
+                 "",
+                 "",
+                 "",
+                 ""
+              ],
+              "bolge": null,
+              "altbolge": null
+           },
+            {
+              "resim": "/resim/Kafa�on/",
+              "correct_answer": "",
+              "incorrect_answers": [
+                 "",
+                 "",
+                 "",
+                 ""
+              ],
+              "bolge": null,
+              "altbolge": null
+           },
+            {
+              "resim": "",
+              "correct_answer": "",
+              "incorrect_answers": [
+                 "",
+                 "",
+                 "",
+                 ""
+              ],
+              "bolge": null,
+              "altbolge": null
+           },
+            {
+              "resim": "",
+              "correct_answer": "",
+              "incorrect_answers": [
+                 "",
+                 "",
+                 "",
+                 ""
+              ],
+              "bolge": null,
+              "altbolge": null
+           }        
     ]
   }
