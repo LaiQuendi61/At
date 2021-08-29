@@ -81,16 +81,15 @@ getNewQuestion = () => {
   question.src = currentQuestion.resim;
 
   choiceContainers.forEach(choice => {
-    const number = choice.dataset["number"]; 
-    choice.lastElementChild.innerText = currentQuestion["choice" + number];
-   //choice.
+    const number = choice.dataset["number"];
+    choice.lastElementChild.innerText = currentQuestion['choice' + number];
   });
 
   availableQuestions.splice(questionIndex, 1);
   acceptingAnswers = true;
 };
 
-choiceContainers.forEach(choiceContainer => {
+choiceContainers.forEach((choiceContainer) => {
   choiceContainer.addEventListener("click", e => {
     if (!acceptingAnswers) return;
 
@@ -99,12 +98,11 @@ choiceContainers.forEach(choiceContainer => {
     const selectedAnswer = selectedChoice.dataset["number"];
 
     const classToApply =
-      selectedAnswer == currentQuestion.correct_answer ? "correct" : "incorrect";
-
+      selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+      
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
     }
-
     selectedChoice.parentElement.classList.add(classToApply);
 
     setTimeout(() => {
@@ -113,7 +111,6 @@ choiceContainers.forEach(choiceContainer => {
     }, 1000);
   });
 });
-
 incrementScore = num => {
   score += num;
   scoreText.innerText = score;

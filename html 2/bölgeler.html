@@ -11,10 +11,8 @@
     <div class="container">
       <div id="home" class="flex-center flex-column">
         <h1>bölge Seç</h1>
-        
-        <div id="content" class="flex-center flex-column">
 
-        </div>
+        <div id="content" class="flex-center flex-column"></div>
         <div
           style="
             position: absolute;
@@ -29,21 +27,19 @@
       </div>
     </div>
     <script>
-      fetch(
-        `http://localhost:3000/bolgeler`
-      )
+      fetch(`http://localhost:3000/bolgeler`)
         .then((res) => {
           return res.json();
         })
         .then((bolgeListesi) => {
-          var content = ''; 
-          bolgeListesi.forEach(tekilBolge => {
-            content += `<a class="btn" href="/altbolge.html?id=${tekilBolge.id}">${tekilBolge.friendlyName}</a>`
+          var content = "";
+          bolgeListesi.forEach((tekilBolge) => {
+            content += `<a class="btn" href="/altbolge.html?id=${tekilBolge.id}">${tekilBolge.friendlyName}</a>`;
           });
-          document.getElementById('content').innerHTML = content;
+          document.getElementById("content").innerHTML = content;
         })
         .catch((err) => {
-          alert('Bölgeler alınırken bir hata oluştu')
+          alert("Bölgeler alınırken bir hata oluştu");
         });
     </script>
   </body>
