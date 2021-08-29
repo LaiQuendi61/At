@@ -8,6 +8,7 @@ const loader = document.getElementById("loader");
 const game = document.getElementById("game");
 const resim = document.getElementById("resim");
 
+
 const urlSearchParams = new URLSearchParams(window.location.search);
 const urlParams = Object.fromEntries(urlSearchParams.entries());
 
@@ -44,7 +45,6 @@ fetch(`http://localhost:3000/questions?bolge=${urlParams.altbolge}&altbolge=${ur
       return formattedQuestion;
   });
   console.log(questions)
-     //questions = loadedQuestions;
      startGame();
 })
 .catch( err => {
@@ -97,18 +97,28 @@ choiceContainers.forEach((choiceContainer) => {
     const selectedChoice = e.target;
     const selectedAnswer = selectedChoice.dataset["number"];
 
+    console.log(currentQuestion.answer)
+
     const classToApply =
       selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
       
+    const dogruYanıt = document.querySelector(`[data-number="${currentQuestion.answer}"]`);
+
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
     }
+    if(selectedAnswer !== currentQuestion.answer){
+      console.log(dogruYanıt)
+     dogruYanıt.classList.add("correct");
+    }
+
     selectedChoice.parentElement.classList.add(classToApply);
 
     setTimeout(() => {
       selectedChoice.parentElement.classList.remove(classToApply);
+      dogruYanıt.classList.remove("correct");
       getNewQuestion();
-    }, 1000);
+    }, 1200);
   });
 });
 incrementScore = num => {
