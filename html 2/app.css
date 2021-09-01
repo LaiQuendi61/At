@@ -1,11 +1,11 @@
 :root {
-    background-color: #ecf5ff;
+    background-color:#ecf5ff;
     font-size: 62.5%;
   }
   
   * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
@@ -85,16 +85,18 @@
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #56a5eb;
+    border: #56a5eb;
+    border: 0.1rem solid;
     margin-bottom: 1rem;
-    text-decoration: none;
+    text-decoration: None;
     color: #56a5eb;
     background-color: white;
   }
   
   .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    box-shadow: rgba(86, 185, 235, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0;
     transform: translateY(-0.1rem);
     transition: transform 150ms;
   }
@@ -124,4 +126,7 @@
     color: #aaa;
   }
 
-  /* BAŞLANGIÇ-GERİ */
+  /* GECE MODU */
+
+
+

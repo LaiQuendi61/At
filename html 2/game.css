@@ -36,14 +36,17 @@
 #hud {
     display: flex;
     justify-content: space-between;
+    display: none;
 }
 .hud-prefix {
     text-align: center;
     font-size: 2rem;
+    display: none;
 }
 
 .hud-main-text {
     text-align: center;
+    display: none;
 }
 
 #progressBar {
@@ -51,27 +54,15 @@
     height: 4rem;
     border: 0.3rem solid #56a5eb;
     margin-top: 1.5rem;
+    display: none;
 }
 
 #progressBarFull {
     height: 3.4rem;
     background-color: #56a5eb;
     width: 50%;
+    display: none;
 }
-
-
-img.question-image{
-    width: 50%;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-img.question-image.full{
-    width: 100%;
-}
-
 /* LOADER */
 
 #loader {
@@ -90,5 +81,10 @@ img.question-image.full{
     100% {
         transform: rotate(360deg);
     }
+}
+
+#question {
+    width: 50%;
+    height: 50%;
 }
  

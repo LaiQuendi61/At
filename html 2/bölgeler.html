@@ -6,11 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bolgeler</title>
     <link rel="stylesheet" href="app.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
   </head>
   <body>
     <div class="container">
-      <div id="home" class="flex-center flex-column">
-        <h1>bölge Seç</h1>
+      <div id="home " class="flex-center flex-column ">
+        <h1>Bölge Seç</h1>
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+          "
+        >
+        <svg height="50" width="50">
+          <defs>
+            <radialGradient id="daire1" cx="20%" cy="50%" r="30%" fx="50%" fy="50%">
+              <stop offset="0%" style="stop-color:rgb(233, 231, 231);stop-opacity:1" />
+              <stop offset="100%" style="stop-color:rgb(233, 231, 231);stop-opacity:1" />
+            </radialGradient>
+          </defs>
+          <circle id="daire" cx="15" cy="15" r="15" stroke="grey" stroke-width="2" fill="url(#daire1)"/>
+        </svg>
+        </div>
 
         <div id="content" class="flex-center flex-column"></div>
         <div
