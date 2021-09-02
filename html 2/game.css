@@ -3,13 +3,13 @@
     margin-bottom: 0.5rem;
     width: 100%;
     font-size: 1.8rem;
-    border: 0.1rem solid rgb(86, 165, 235, 0.25);
-    background-color: white;
+    border: 0.1rem solid rgba(24, 47, 66, 0.25);
+    background-color: #333333;
 }
 
 .choice-container:hover{
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba (86, 185, 235, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(58, 58, 58, 0.5);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
@@ -21,14 +21,17 @@
 .choice-text {
     padding: 1.5rem;
     width: 100%;
+    color: white;
+    
 }
 .correct {
-    background-color: #28a745;
+    background-color: #1c7230;
 }
 
 .incorrect {
-    background-color: #dc3545;
+    background-color: #7e1e27;
 }
+
 
 /* HUD */
 
@@ -100,4 +103,33 @@ img.question-image.full{
     width: 50%;
     height: 50%;
 }
- 
+
+  /* GECE MODU */
+.gece-modu .choice-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+}
+
+.gece-modu .choice-text {
+    padding: 1.5rem;
+    width: 100%;
+    color: black;
+}
+
+.gece-modu .choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.gece-modu .correct {
+    background-color: #1c7230;
+}
+.gece-modu .incorrect {
+    background-color: #7e1e27;
+}

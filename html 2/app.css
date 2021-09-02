@@ -1,6 +1,8 @@
 :root {
-    background-color:#ecf5ff;
     font-size: 62.5%;
+  }
+  body{
+    background-color:#222222;
   }
   
   * {
@@ -85,18 +87,16 @@
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: #56a5eb;
-    border: 0.1rem solid;
+    border: 0.1rem solid rgb(43, 42, 42);
     margin-bottom: 1rem;
     text-decoration: None;
     color: #56a5eb;
-    background-color: white;
+    background-color: rgb(54, 54, 54);
   }
   
   .btn:hover {
     cursor: pointer;
-    box-shadow: rgba(86, 185, 235, 0.5);
-    box-shadow: 0 0.4rem 1.4rem 0;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(71, 71, 71, 0.5);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
   }
@@ -127,6 +127,24 @@
   }
 
   /* GECE MODU */
-
-
+.gece-modu .btn{
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #56a5eb;
+  margin-bottom: 1rem;
+  text-decoration: None;
+  color: #56a5eb;
+  background-color: white;
+}
+.gece-modu{
+  background-color: #ecf5ff;
+}
+.gece-modu .btn:hover {
+  cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
 
