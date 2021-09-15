@@ -1,0 +1,490 @@
+{
+  "bolgeler":[
+    {
+      "id":1,
+      "friendlyName":"Baş"
+    },
+    {
+      "id":2,
+      "friendlyName":"Kol"
+    }
+  ],
+  "altbolge": [
+    {
+      "id" : 1,
+      "friendlyName": "Bacak",
+      "bolge": 1
+    },
+    {
+      "id" : 1,
+      "friendlyName": "Bacak 2",
+      "bolge": 2
+    },
+    {
+      "id" : 3,
+      "friendlyName": "Bacak 3",
+      "bolge": 3
+    }
+  ],
+  
+  
+    "questions": [
+        {
+            "resim":"/resim/Kafa on/ala major os sphenoidale.png",
+            "question":"a",
+            "correct_answer": "2007",
+            "incorrect_answers": [
+              "2008",
+              "2006",
+              "we",
+              "2009"
+            ],
+            "bolge": 1,
+            "altbolge": 1
+          },
+            {
+              "resim": "/resim/Kafa on/sutura internasalis.png",
+              "correct_answer": "Sutura internasalis",
+              "incorrect_answers": [
+                 "Sutura frontolacrimalis",
+                 "Sutura nasomaxillaris",
+                 "Sutura frontonasalis",
+                 "Sutura frontomaxillaris"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/os lacrimale.png",
+              "correct_answer": "os lacrimale",
+              "incorrect_answers": [
+                 "os sphenoidale",
+                 "vomer",
+                 "ethmoidale",
+                 "maxilla"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/sutura frontomaxillaris.png",
+              "correct_answer": "Sutura frontomaxillaris",
+              "incorrect_answers": [
+                 "Sutura frontolacrimalis",
+                 "Sutura nasomaxillaris",
+                 "Sutura frontonasalis",
+                 "Sutura sphenozygomatica"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/sutura frontonasalis.png",
+              "correct_answer": "Sutura frontonasalis",
+              "incorrect_answers": [
+                 "Sutura frontolacrimalis",
+                 "Sutura nasomaxillaris",
+                 "Sutura frontozygomatica",
+                 "Sutura frontomaxillaris"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/sutura frontozygomatica.png",
+              "correct_answer": "Sutura frontozygomatica",
+              "incorrect_answers": [
+                 "Sutura frontolacrimalis",
+                 "Sutura frontolacrimalis",
+                 "Sutura frontonasalis",
+                 "Sutura frontomaxillaris"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/sutura sphenozygomatica.png",
+              "correct_answer": "Sutura sphenozygomatica",
+              "incorrect_answers": [
+                 "Sutura zygomaticomaxillaris",
+                 "Sutura nasomaxillaris",
+                 "Sutura sphenoparietalis",
+                 "Sutura frontomaxillaris"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/sutura nasomaxillaris.png",
+              "correct_answer": "Sutura nasomaxillaris",
+              "incorrect_answers": [
+                 "Sutura frontolacrimalis",
+                 "Sutura sphenozygomatica",
+                 "Sutura frontonasalis",
+                 "Sutura frontomaxillaris"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/Sutura coronalis.png",
+              "correct_answer": "Sutura coronalis",
+              "incorrect_answers": [
+                 "Sutura sphenofrontalis",
+                 "Sutura frontozygomatica",
+                 "Sutura internasalis",
+                 "Sutura frontozygomatica"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/Sutura sphenofrontalis.png",
+              "correct_answer": "Sutura sphenofrontalis",
+              "incorrect_answers": [
+                 "Sutura frontolacrimalis",
+                 "Sutura sphenoparietalis",
+                 "Sutura sphenozygomatica",
+                 "Sutura frontozygomatica"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/Sutura zygomaticomaxillaris.png",
+              "correct_answer": "Sutura zygomaticomaxillaris",
+              "incorrect_answers": [
+                 "Sutura sphenofrontalis",
+                 "Sutura intermaxillaris",
+                 "Sutura sphenozygomatica",
+                 "Sutura frontozygomatica"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/Sutura sphenoparietalis.png",
+              "correct_answer": "Sutura sphenoparietalis",
+              "incorrect_answers": [
+                 "Sutura zygomaticomaxillaris",
+                 "Sutura sphenofrontalis",
+                 "Sutura sphenozygomatica",
+                 "Sutura sphenozygomatica"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/Sutura intermaxillaris.png",
+              "correct_answer": "Sutura intermaxillaris",
+              "incorrect_answers": [
+                 "Sutura zygomaticomaxillaris",
+                 "Sutura sphenofrontalis",
+                 "Sutura internasalis",
+                 "Sutura nasomaxillaris"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+            {
+              "resim": "/resim/Kafa on/Sutura frontolacrimalis.png",
+              "correct_answer": "Sutura frontolacrimalis",
+              "incorrect_answers": [
+                 "Sutura sphenofrontalis",
+                 "Sutura sphenofrontalis",
+                 "Sutura frontomaxillaris",
+                 "Sutura coronalis"
+              ],
+              "bolge": 1,
+              "altbolge": 1
+           },
+           {
+            "resim": "/resim/Kafa on ----/corpus mnadibula.png",
+            "correct_answer": "Corpus mandibula",
+            "incorrect_answers": [
+               "asd",
+               "asd",
+               "fa",
+               "asf"
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/fissura orbitalis inferior.png",
+            "correct_answer": "Fissura orbitalis inferior",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/fissura orbitalis superior.png",
+            "correct_answer": "fissura orbitalis superior",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/margo infra orbitalis.png",
+            "correct_answer": "margo infra orbitalis",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/foramen infra orbitale.png",
+            "correct_answer": "foramen infra orbitale",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/margo supra-orbitalis.png",
+            "correct_answer": "margo supra-orbitalis",
+            "incorrect_answers": [
+               "x",
+               "y",
+               "z",
+               "c"
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/foramne supra orbitale.png",
+            "correct_answer": "foramne supra orbitale",
+            "incorrect_answers": [
+               "a",
+               "b",
+               "c",
+               "d"
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/maxilla proc alveolaris.png",
+            "correct_answer": "maxilla proc alveolaris",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/maxilla, proc frontalis.png",
+            "correct_answer": "maxilla, proc frontalis",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/os etmoidale.png",
+            "correct_answer": "os etmoidale",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/os frontale pars orbitalis.png",
+            "correct_answer": "os frontale pars orbitalis",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/os frontale proc zygomaticus.png",
+            "correct_answer": "os frontale proc zygomaticus",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/os frontale squama frontalis.png",
+            "correct_answer": "os frontale squama frontalis",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/os lacri,male.png",
+            "correct_answer": "os lacri,male",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/os nasale.png",
+            "correct_answer": "os nasale",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/os parietale.png",
+            "correct_answer": "os parietale ",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/os parietale angulus sphenodalis.png",
+            "correct_answer": "os parietale angulus sphenodalis",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/os sphenoidale ala minor.png",
+            "correct_answer": "os sphenoidale ala minor",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/os sphenoidale, ala major.png",
+            "correct_answer": "os sphenoidale, ala major",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/os temporale.png",
+            "correct_answer": "os temporale",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/os zygomaticum.png",
+            "correct_answer": "os zygomaticum",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/ramus mandibulae.png",
+            "correct_answer": "ramus mandibulae",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/septum nasi  osseum.png",
+            "correct_answer": "septum nasi  osseum",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         },
+          {
+            "resim": "/resim/kafa on ----/spina naslis anterior.png",
+            "correct_answer": "spina naslis anterior",
+            "incorrect_answers": [
+               "",
+               "",
+               "",
+               ""
+            ],
+            "bolge": 1,
+            "altbolge": 1
+         }        
+    ]
+  }
