@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quick Quiz - Play</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="game.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div
+        style="
+          position: absolute;
+          top: 0;
+          width: 100%;
+          display: flex;
+        "
+      >
+      <svg height="50" width="50">
+        <defs>
+          <radialGradient id="daire1" cx="20%" cy="50%" r="30%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:rgb(233, 231, 231);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(233, 231, 231);stop-opacity:1" />
+          </radialGradient>
+        </defs>
+        <circle id="daire" cx="16" cy="16" r="15" stroke="grey" stroke-width="2" fill="url(#daire1)"/>
+      </svg>
+      </div>
+      <div id="loader"></div>
+      <div id="game" class="justify-center flex-column">
+        <div class= "jhide" id="hud">
+          <div id="hud-item">
+            <p id="progressText" class="hud-prefix">Question</p>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div> 
+          </div>
+          <div id="hud-item jhide">
+            <p class="hud-prefix">Score</p>
+            <h1 class="hud-main-text" id="score">0</h1>
+          </div>
+        </div>
+        <img src="" id="question" alt="" class="question-image"/>
+        <div class="choice-container jhide" data-number="1">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1">Choice 1</p>
+        </div>
+        <div class="choice-container jhide" data-number="2">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2">Choice 2</p>
+        </div>
+        <div class="choice-container jhide" data-number="3">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3">Choice 3</p>
+        </div>
+        <div class="choice-container jhide" data-number="4">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4">Choice 4</p>
+        </div>
+        <div class="choice-container jhide" data-number="5">
+          <p class="choice-prefix">E</p>
+          <p class="choice-text" data-number="5">Choice 5</p>
+        </div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
