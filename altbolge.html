@@ -62,7 +62,7 @@
         .then((altBolgeListesi) => {
           var content = ''; 
           altBolgeListesi.forEach(tekilAltBolge => {
-            content += `<a class="btn" href="/game.html?altbolge=${urlParams.id}&bolge=${tekilAltBolge.bolge}">${tekilAltBolge.friendlyName}</a>`
+            content += `<a class="btn" href="/At/game.html?altbolge=${urlParams.id}&bolge=${tekilAltBolge.bolge}">${tekilAltBolge.friendlyName}</a>`
           });
 
           if(altBolgeListesi.length == 0){
