@@ -54,7 +54,7 @@
         .then((bolgeListesi) => {
           var content = "";
           bolgeListesi.forEach((tekilBolge) => {
-            content += `<a class="btn" href="/altbolge.html?id=${tekilBolge.id}">${tekilBolge.friendlyName}</a>`;
+            content += `<a class="btn" href="/At/altbolge.html?id=${tekilBolge.id}">${tekilBolge.friendlyName}</a>`;
           });
           document.getElementById("content").innerHTML = content;
         })
